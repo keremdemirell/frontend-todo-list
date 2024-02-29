@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-Scorpio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <section id="left-section">
+        <header>
+            <div id="top"></div>
+
+            <div id="project-members" class="selected-menu">
+                <div></div>
+                <div><i class="fa-regular fa-star fa-lg"></i></div>
+                <div>Project Members</div>
+            </div>
+
+            <article></article>
+        </header>
+
+        <footer>
+            <div>+</div>
+            <div>New List</div>
+        </footer>
+
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                New Task Name
+            </div>
+    
+            <div class="modal-body">
+                <input type="text" name="" id="">
+            </div>
+
+            <footer>
+                <button id="create-btn">Create</button>
+                <button id="close-btn">Cancel</button>
+            </footer>
+        </div>
+
+        <div class="" id="overlay"></div>
+    </section>
+
+    <section id="members" class="display">
+        <header>
+            <div><i class="fa-regular fa-star"></i></div>
+            <div>Project Members</div>
+        </header>
+
+        <article id="profiles"></article>
+    </section>
+
+    <section id="todolist" class="hidden">
+        
+        <header>
+            <div></div>
+        </header>
+
+        <article id="items" name=""></article>
+            
+
+        <div id ="add-bar">
+            <p>+</p>
+            <input type="text" placeholder="Add a task" name="" id="">
+        </div>
+    </section>
+    
+</body>
+</html>

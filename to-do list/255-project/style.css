@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0px 200px;
+    display: flex;
+}
+
+#left-section {
+    min-width: 400px;
+    border-left: 2px solid rgb(137, 137, 137);
+    /* padding: 8px; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left-section header {
+    padding: 8px;
+}
+
+#left-section img {
+    width: 80px;
+    border-radius: 100%;
+}
+
+#left-section #top {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    /* justify-content: left; */
+}
+
+#left-section .header-title {
+    font-weight:700;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#left-section .header-email {
+    margin-top: 3px;
+    color: grey;
+}
+
+/*PROJECT MEMBERS*/
+#project-members {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 0px;
+    /* padding-bottom: 15px; */
+    /* border-bottom: 2px solid rgb(183, 183, 183); */
+    /* justify-content: center; */
+}
+
+#project-members:hover{
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+    
+    cursor: pointer;
+}
+
+/*#left-section #project-members div:first-of-type {
+    width: 5px;
+    height: 22px;
+    background-color:rgb(11, 27, 109)
+}*/
+
+#left-section #project-members i {
+    color: grey;
+}
+
+#left-section #project-members div:last-of-type {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*LEFT SECTION ARTICLE*/
+#left-section article {
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-top: 2px solid rgb(183, 183, 183);
+    padding-top: 20px;
+    
+}
+#left-section .category {
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+#left-section .category > div:first-of-type {
+    display: flex;
+    gap: 15px;
+}
+
+#left-section .category > div:last-of-type {
+    display: flex;
+    gap: 25px;
+}
+
+#left-section .category:hover {
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+    
+    cursor: pointer;
+}
+
+#left-section .category i {
+    color: rgb(125, 125, 251);
+}
+
+#left-section .category .count {
+    color: rgb(110, 110, 110);
+
+}
+
+/*LEFT SECTION FOOTER*/
+
+#left-section footer {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+    border-top: 2px solid grey;
+}
+#left-section > footer:hover {
+    background-color: rgb(228, 228, 228);
+    
+    cursor: pointer;
+}
+
+#left-section footer div:first-of-type {
+    font-size: 35px;
+    font-weight: bold;
+    color: grey;
+}
+
+#left-section footer div:last-of-type {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/*PROJECT MEMBERS MAIN SECTION*/
+#members {
+    background-color: pink;
+    width: 100%;
+}
+
+#members article {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+#members  header {
+    font-size: 45px;
+    color: rgb(255, 92, 119);
+    display: flex;
+    gap: 35px;
+    font-weight: 700;
+    padding: 60px 60px 120px;
+}
+
+
+#members #profiles {
+    padding: 0px 30px;
+}
+#members .member-profile {
+    display: flex;
+    gap: 40px;
+    padding: 10px 50px;
+}
+
+#members .member-profile:hover {
+    background-color: rgb(206, 206, 206);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#members .member-profile img{
+    width: 80px;
+    border-radius: 100%;
+}
+
+#members .member-profile .member-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#members .member-profile .member-info p:first-of-type {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#members .member-profile .member-info p:nth-of-type(2), p:last-of-type {
+    font-size: 18px;
+} 
+
+
+
+
+/*TODOLIST*/
+#todolist {
+    background-color: rgb(126, 126, 252);
+    width: 100%;
+    height: 100vh;
+    padding: 0 25px;
+    position: relative;
+}
+
+#todolist header {
+    font-size: 45px;
+    color: white;
+    gap: 35px;
+    font-weight: 700;
+    padding: 60px 0 80px;
+    margin-bottom: 10px;
+}
+
+#items .item {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    padding-left: 30px;
+    border-radius: 8px;
+    
+    margin-bottom: 5px;
+}
+
+#items .item:hover {
+    cursor: pointer;
+}
+
+#items .item p {
+    font-size: 22px;
+    color: grey;
+}
+#items .item input {
+    background-color: red;
+    width: 20px;
+}
+
+
+#add-bar {
+    display: flex;
+    gap: 20px;
+    background-color: rgb(235, 235, 235);
+    padding: 10px 20px;
+    border-radius: 8px;
+    
+    left: 25px;
+    right: 25px;
+    position: absolute;
+    bottom: 25px;
+}
+
+#add-bar p {
+    font-size: 35px;
+    font-weight: bold;
+}
+#add-bar input {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    font-size: 22px;
+    width: 100%;
+}
+#add-bar p:hover {
+    cursor: pointer;
+}
+
+#add-bar input:focus {
+    outline: none;
+}
+
+
+
+
+
+/*OVERLAY MODAL*/
+#modal {
+
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: none;
+}
+#modal .modal-header {
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(232, 232, 232);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+#modal .modal-body {
+    text-align: center;
+    padding: 25px 10px;
+    background-color: white;
+}
+#modal .modal-body input {
+    height: 35px;
+    width: 80%;
+    border: 2px solid rgb(62, 62, 62);
+    border-radius: 2px;
+    font-size: 32px;
+}
+
+#modal footer {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding: 15px 25px 10px ;
+    background-color: white;
+
+}
+#modal footer button {
+    height: 35px;
+    width: 80px;
+    background-color: white;
+    border: 2px grey solid;
+    border-radius: 4px;
+}
+#modal footer button:hover {
+    background-color: rgb(212, 212, 212);
+    
+    cursor: pointer;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.20);
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+
+
+/*USED BY JQUERY*/
+.selected-menu {
+    border-left: 5px solid blue;
+}
+.completed {
+    text-decoration:line-through;
+}
+.hidden {
+    display: none !important;
+}
+.display  {
+    display:block !important;
+}
+
+.secret {
+    visibility: hidden;
+}
